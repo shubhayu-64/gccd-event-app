@@ -1,8 +1,8 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/screens/form_preview_screen.dart';
-import 'package:ccd2022app/screens/form_screen.dart';
-import 'package:ccd2022app/screens/view_ticket_screen.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/screens/form_preview_screen.dart';
+import 'package:ccdeventapp/screens/form_screen.dart';
+import 'package:ccdeventapp/screens/view_ticket_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

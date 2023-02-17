@@ -1,7 +1,7 @@
-import 'package:ccd2022app/blocs/sessions_bloc.dart';
-import 'package:ccd2022app/blocs/speakers_bloc.dart';
-import 'package:ccd2022app/models/time_slot_model.dart';
-import 'package:ccd2022app/widgets/single_session.dart';
+import 'package:ccdeventapp/blocs/sessions_bloc.dart';
+import 'package:ccdeventapp/blocs/speakers_bloc.dart';
+import 'package:ccdeventapp/models/time_slot_model.dart';
+import 'package:ccdeventapp/widgets/single_session.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tab_indicator_styler/tab_indicator_styler.dart';

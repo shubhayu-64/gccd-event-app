@@ -1,7 +1,7 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/nav_bloc.dart';
-import 'package:ccd2022app/utils/config.dart';
-import 'package:ccd2022app/utils/snackbar.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/utils/config.dart';
+import 'package:ccdeventapp/utils/snackbar.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';

@@ -1,4 +1,4 @@
-import 'package:ccd2022app/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -8,14 +8,14 @@ class ForegroundNotificationModal extends StatelessWidget {
   final String? imageUrl;
   final String? redirect;
   final String body;
-  final String? screen;
+  final String screen;
   final NavigationBloc nb;
 
   const ForegroundNotificationModal({
     required this.title,
     required this.body,
     required this.nb,
-    this.screen,
+    required this.screen,
     this.imageUrl,
     this.redirect,
     Key? key,
@@ -120,7 +120,7 @@ class ForegroundNotificationModal extends StatelessWidget {
           const SizedBox(
             height: 40,
           ),
-          if (screen != null && nb.screenNames.values.contains(screen))
+          if (screen != "" && nb.screenNames.values.contains(screen))
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
@@ -153,7 +153,7 @@ class ForegroundNotificationModal extends StatelessWidget {
                 ),
               ),
             )
-          else if (redirect != null)
+          else if ((redirect ?? "") != "")
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(

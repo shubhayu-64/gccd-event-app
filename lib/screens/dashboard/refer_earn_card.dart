@@ -1,6 +1,6 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/screens/referral/refer_and_earn_screen.dart';
-import 'package:ccd2022app/utils/snackbar.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/screens/referral/refer_and_earn_screen.dart';
+import 'package:ccdeventapp/utils/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';

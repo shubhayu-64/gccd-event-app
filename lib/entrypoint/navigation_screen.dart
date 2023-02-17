@@ -1,18 +1,18 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/nav_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/screens/dashboard/dashboard_screen.dart';
-import 'package:ccd2022app/screens/home/home_screen.dart';
-import 'package:ccd2022app/screens/profile/profile_screen.dart';
-import 'package:ccd2022app/screens/referral/refer_and_earn_screen.dart';
-import 'package:ccd2022app/screens/schedule_screen.dart';
-import 'package:ccd2022app/screens/speakers_screen.dart';
-import 'package:ccd2022app/screens/sponsors/partners_screen.dart';
-import 'package:ccd2022app/services/fcm.dart';
-import 'package:ccd2022app/utils/config.dart';
-import 'package:ccd2022app/widgets/drawer.dart';
-import 'package:ccd2022app/widgets/foreground_notification_modal.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/screens/dashboard/dashboard_screen.dart';
+import 'package:ccdeventapp/screens/home/home_screen.dart';
+import 'package:ccdeventapp/screens/profile/profile_screen.dart';
+import 'package:ccdeventapp/screens/referral/refer_and_earn_screen.dart';
+import 'package:ccdeventapp/screens/schedule_screen.dart';
+import 'package:ccdeventapp/screens/speakers_screen.dart';
+import 'package:ccdeventapp/screens/sponsors/partners_screen.dart';
+import 'package:ccdeventapp/services/fcm.dart';
+import 'package:ccdeventapp/utils/config.dart';
+import 'package:ccdeventapp/widgets/drawer.dart';
+import 'package:ccdeventapp/widgets/foreground_notification_modal.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -182,6 +182,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                 nb: nb,
                 screen: message.data[Config.fcmArgScreen] ?? "",
                 imageUrl: message.data[Config.fcmArgImage] ?? "",
+                redirect:  message.data[Config.fcmArgImage] ?? "",
               );
             },
           );

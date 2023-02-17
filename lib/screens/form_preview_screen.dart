@@ -1,5 +1,5 @@
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/utils/config.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/utils/config.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

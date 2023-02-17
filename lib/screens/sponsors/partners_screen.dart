@@ -1,8 +1,8 @@
-import 'package:ccd2022app/blocs/sponsors.bloc.dart';
-import 'package:ccd2022app/models/sponsor_model.dart';
-import 'package:ccd2022app/screens/sponsors/cards/sliding_card_view_state.dart';
-import 'package:ccd2022app/widgets/indicator_heading.dart';
-import 'package:ccd2022app/widgets/sponsor_card.dart';
+import 'package:ccdeventapp/blocs/sponsors.bloc.dart';
+import 'package:ccdeventapp/models/sponsor_model.dart';
+import 'package:ccdeventapp/screens/sponsors/cards/sliding_card_view_state.dart';
+import 'package:ccdeventapp/widgets/indicator_heading.dart';
+import 'package:ccdeventapp/widgets/sponsor_card.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';

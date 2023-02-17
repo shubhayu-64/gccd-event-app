@@ -1,5 +1,5 @@
-import 'package:ccd2022app/blocs/nav_bloc.dart';
-import 'package:ccd2022app/utils/config.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/utils/config.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

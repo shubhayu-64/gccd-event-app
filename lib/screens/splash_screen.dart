@@ -1,4 +1,4 @@
-import 'package:ccd2022app/entrypoint/navigation_screen.dart';
+import 'package:ccdeventapp/entrypoint/navigation_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:gif/gif.dart';
 

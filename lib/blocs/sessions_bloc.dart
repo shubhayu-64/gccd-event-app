@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ccd2022app/models/time_slot_model.dart';
+import 'package:ccdeventapp/models/time_slot_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
 

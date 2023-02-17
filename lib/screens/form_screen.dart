@@ -1,10 +1,10 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/referral_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_form_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/models/ticket_form_model.dart';
-import 'package:ccd2022app/utils/snackbar.dart';
-import 'package:ccd2022app/widgets/custom_inputfields.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/referral_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_form_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/models/ticket_form_model.dart';
+import 'package:ccdeventapp/utils/snackbar.dart';
+import 'package:ccdeventapp/widgets/custom_inputfields.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

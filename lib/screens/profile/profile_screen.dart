@@ -1,7 +1,7 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/utils/config.dart';
-import 'package:ccd2022app/widgets/multiborder_image.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/utils/config.dart';
+import 'package:ccdeventapp/widgets/multiborder_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';

@@ -1,4 +1,4 @@
-import 'package:ccd2022app/blocs/referral_bloc.dart';
+import 'package:ccdeventapp/blocs/referral_bloc.dart';
 import 'package:flutter/material.dart';
 
 class ReferralModal extends StatelessWidget {

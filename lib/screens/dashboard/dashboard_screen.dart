@@ -1,8 +1,8 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/screens/dashboard/application_status_card.dart';
-import 'package:ccd2022app/screens/dashboard/hackathon_card.dart';
-import 'package:ccd2022app/screens/dashboard/refer_earn_card.dart';
-import 'package:ccd2022app/utils/config.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/screens/dashboard/application_status_card.dart';
+import 'package:ccdeventapp/screens/dashboard/hackathon_card.dart';
+import 'package:ccdeventapp/screens/dashboard/refer_earn_card.dart';
+import 'package:ccdeventapp/utils/config.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,4 +1,4 @@
-import 'package:ccd2022app/models/room_model.dart';
+import 'package:ccdeventapp/models/room_model.dart';
 
 class Timeslot {
   List<Room> rooms;

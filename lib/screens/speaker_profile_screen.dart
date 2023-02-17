@@ -1,5 +1,5 @@
-import 'package:ccd2022app/models/speaker_model.dart';
-import 'package:ccd2022app/widgets/multiborder_image.dart';
+import 'package:ccdeventapp/models/speaker_model.dart';
+import 'package:ccdeventapp/widgets/multiborder_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:readmore/readmore.dart';

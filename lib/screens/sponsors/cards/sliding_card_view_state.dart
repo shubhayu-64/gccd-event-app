@@ -1,6 +1,6 @@
-import 'package:ccd2022app/blocs/community_partners_bloc.dart';
-import 'package:ccd2022app/models/community_partners_model.dart';
-import 'package:ccd2022app/screens/sponsors/cards/sliding_card.dart';
+import 'package:ccdeventapp/blocs/community_partners_bloc.dart';
+import 'package:ccdeventapp/models/community_partners_model.dart';
+import 'package:ccdeventapp/screens/sponsors/cards/sliding_card.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:ccd2022app/models/sponsor_model.dart';
+import 'package:ccdeventapp/models/sponsor_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
