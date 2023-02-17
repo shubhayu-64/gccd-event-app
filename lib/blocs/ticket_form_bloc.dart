@@ -1,9 +1,9 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/referral_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/entrypoint/navigation_screen.dart';
-import 'package:ccd2022app/models/ticket_form_model.dart';
-import 'package:ccd2022app/utils/config.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/referral_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/entrypoint/navigation_screen.dart';
+import 'package:ccdeventapp/models/ticket_form_model.dart';
+import 'package:ccdeventapp/utils/config.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 

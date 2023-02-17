@@ -1,6 +1,6 @@
-import 'package:ccd2022app/models/sessions_model.dart';
-import 'package:ccd2022app/widgets/speaker_chip.dart';
-import 'package:ccd2022app/widgets/technology_chip.dart';
+import 'package:ccdeventapp/models/sessions_model.dart';
+import 'package:ccdeventapp/widgets/speaker_chip.dart';
+import 'package:ccdeventapp/widgets/technology_chip.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';

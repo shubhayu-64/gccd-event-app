@@ -1,4 +1,4 @@
-import 'package:ccd2022app/utils/config.dart';
+import 'package:ccdeventapp/utils/config.dart';
 
 class TicketFormModel {
   String blog;

@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/nav_bloc.dart';
-import 'package:ccd2022app/blocs/referral_bloc.dart';
-import 'package:ccd2022app/blocs/ticket_status_bloc.dart';
-import 'package:ccd2022app/screens/license_screen.dart';
-import 'package:ccd2022app/widgets/social_media_icon.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/blocs/referral_bloc.dart';
+import 'package:ccdeventapp/blocs/ticket_status_bloc.dart';
+import 'package:ccdeventapp/screens/license_screen.dart';
+import 'package:ccdeventapp/widgets/social_media_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

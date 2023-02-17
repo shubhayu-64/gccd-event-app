@@ -1,4 +1,4 @@
-import 'package:ccd2022app/models/sessions_model.dart';
+import 'package:ccdeventapp/models/sessions_model.dart';
 
 class Room {
   int id;

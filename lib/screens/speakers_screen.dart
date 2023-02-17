@@ -1,5 +1,5 @@
-import 'package:ccd2022app/blocs/speakers_bloc.dart';
-import 'package:ccd2022app/screens/speaker_profile_screen.dart';
+import 'package:ccdeventapp/blocs/speakers_bloc.dart';
+import 'package:ccdeventapp/screens/speaker_profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

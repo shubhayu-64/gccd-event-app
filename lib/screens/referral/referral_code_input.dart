@@ -1,8 +1,8 @@
-import 'package:ccd2022app/blocs/auth_bloc.dart';
-import 'package:ccd2022app/blocs/nav_bloc.dart';
-import 'package:ccd2022app/blocs/referral_bloc.dart';
-import 'package:ccd2022app/widgets/custom_inputfields.dart';
-import 'package:ccd2022app/widgets/indicator_heading.dart';
+import 'package:ccdeventapp/blocs/auth_bloc.dart';
+import 'package:ccdeventapp/blocs/nav_bloc.dart';
+import 'package:ccdeventapp/blocs/referral_bloc.dart';
+import 'package:ccdeventapp/widgets/custom_inputfields.dart';
+import 'package:ccdeventapp/widgets/indicator_heading.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/snackbar.dart';
